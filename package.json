@@ -1,0 +1,23 @@
+{
+  "name": "three-events-system",
+  "version": "0.0.0",
+  "description": "Events system extension for Three.JS",
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEFMT/three-events-system.git"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "events",
+    "events-system"
+  ],
+  "author": "Titov Maksim (defmtitov@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DEFMT/three-events-system/issues"
+  },
+  "homepage": "https://github.com/DEFMT/three-events-system#readme"
+}
