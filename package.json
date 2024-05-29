@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "description": "Events system extension for Three.JS",
   "main": "lib/index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "lint": "eslint \"**/*.ts\" --fix && tsc --noemit",
+    "format": "prettier --ignore-path .prettierignore \"**/*.{ts,json}\" --write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DEFMT/three-events-system.git"
@@ -19,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/DEFMT/three-events-system/issues"
   },
-  "homepage": "https://github.com/DEFMT/three-events-system#readme"
+  "homepage": "https://github.com/DEFMT/three-events-system#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-perfectionist": "^2.10.0",
+    "globals": "^15.3.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  }
 }

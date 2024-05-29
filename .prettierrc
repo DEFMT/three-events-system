@@ -1,0 +1,25 @@
+{
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "singleQuote": false,
+  "proseWrap": "always",
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "useTabs": true,
+        "tabWidth": 4,
+        "semi": true,
+        "jsxSingleQuote": false,
+        "bracketSpacing": false
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "useTabs": false
+      }
+    }
+  ]
+}
